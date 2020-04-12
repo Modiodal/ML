@@ -56,7 +56,3 @@ plt.show()
 best_num = k_list[scores.index(min(scores))]
 print('-------------------------------------')
 print('The best number of neighbors for our model is: {}'.format(best_num))
-
-
-
-
