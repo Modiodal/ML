@@ -1,4 +1,4 @@
-# Personal Machine Learning programs
+# Machine Learning Programs
 
 ## #1 Machine Learning - Classification [iris_dataset](../master/iris_dataset.py)
 
