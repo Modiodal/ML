@@ -29,7 +29,7 @@ knn = KNeighborsClassifier(n_neighbors=6)
 knn.fit(X_train, y_train)
 y_predict = knn.predict(X_test)
 
-#Step 5 - Evaluate predictions using
+#Step 5 - Evaluate predictions using Accuracy Score, Confusion Matrix and Classification reports
 print('The Accuracy of this model is: {}%' .format(np.round(accuracy_score(y_test, y_predict), decimals=4) * 100))
 print('-------------------------------------')
 print('Confusion Matrix: \n{}'.format(confusion_matrix(y_test, y_predict)))
@@ -52,7 +52,7 @@ plt.ylabel('Misclassification Error', fontsize=17)
 plt.plot(k_list, scores)
 plt.show()
 
-#Step 7 - Finding the best number of neighbors for the model
+#Step 7 - Finding the best number of neighbors(k) for the model
 best_num = k_list[scores.index(min(scores))]
 print('-------------------------------------')
 print('The best number of neighbors for our model is: {}'.format(best_num))
