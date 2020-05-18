@@ -6,4 +6,4 @@ The data is from the University of California, Irvine (UCI) Machine Learning Rep
 
 ## #2 - Regression [binance_regression](../master/binance_regression.py)
 
-This data was taken from Binance's api which can accessed [here](https://python-binance.readthedocs.io/en/latest/binance.html). For this program I set out to learn about regression and its impact on predicting future stock. During my time completing this program, I realized I should learn object oriented programming and implement that into my code. It was my fascination with cryptocurrencies volatility that drew me away from the traditional stock market. 
+This data was taken from Binance's api which can accessed [here](https://python-binance.readthedocs.io/en/latest/binance.html). For this program, I set out to learn about regression and its impact on predicting future stock. During my time completing this program, I realized I should learn object oriented programming and implement that into my code. It was my fascination with cryptocurrencies volatility that drew me away from the traditional stock market. 
